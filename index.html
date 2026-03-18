@@ -949,7 +949,13 @@ footer a { color: var(--gold-light); text-decoration: none; }
         <label>Any questions or special notes?</label>
         <textarea id="notes" rows="3" placeholder="e.g. allergies, questions about materials needed..."></textarea>
       </div>
-      <button class="form-submit" onclick="submitForm()">🎉 Submit Registration</button>
+      <div class="form-group" style="background:rgba(255,107,107,0.1);border:1.5px solid rgba(255,107,107,0.4);border-radius:12px;padding:16px 18px;">
+        <label style="display:flex;align-items:flex-start;gap:12px;cursor:pointer;text-transform:none;letter-spacing:0;font-size:0.88rem;line-height:1.6;color:rgba(255,255,255,0.85);">
+          <input type="checkbox" id="safetyAgree" style="width:20px;height:20px;min-width:20px;margin-top:2px;accent-color:#F0C060;cursor:pointer;">
+          <span>I have read the <strong style="color:#F0C060;">Safety Guidelines</strong> above. A responsible adult will supervise my child for the full duration of every class. I understand CraftsyClub is <strong style="color:#F0C060;">not liable</strong> for any injuries that occur in our home during sessions, and I accept full responsibility for my child's safety.</span>
+        </label>
+      </div>
+      <button class="form-submit" onclick="submitForm()">🎉 Submit Registration – $60</button>
       <p class="form-note">You'll receive a confirmation email with payment details within 24 hours.</p>
     </div>
 
